@@ -1,0 +1,31 @@
+{
+  "name": "ai-predictive-car-care",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "AI Predictive Car Care Platform - Phase 1 foundation (React + Vite + Supabase)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:rls": "vitest run tests/rls"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@tailwindcss/vite": "^4.0.0",
+    "@testing-library/react": "^14.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^25.0.1",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.8"
+  }
+}
